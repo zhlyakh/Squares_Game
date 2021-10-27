@@ -1,0 +1,16 @@
+canvas {        
+    background: yellow;
+  }
+
+
+  .gaming_block{
+      animation: falling 10s linear 1;
+  }
+  @keyframes falling {
+      0%{
+          top:30px;
+      }
+      100%{
+          top:490px;
+      }
+  }
